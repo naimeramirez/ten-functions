@@ -62,8 +62,7 @@ function addOne(x){
 //number or a string containing an even number, return true. Any other input should
 //return false for the output.
 function isEven(x){
-    var number = Number(x);
-    if ((number % 2 === 0) && (number !== true || number !== false)){
+    if((x % 2 === 0) && (x !== false)){
         return true;
     }else{
         return false;
